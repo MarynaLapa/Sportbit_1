@@ -1,36 +1,90 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 500px;
+    font-size: 18px;
 }
 * {
     box-sizing: border-box;
 }
-div {
-    width: 465px;
-    margin-right: 180px;
+h1, h2, h3 {
+    font-weight: 700;
+    margin: 0;
 }
 h1 {
     font-size: 50px;
-    font-weight: 700;
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
 }
 p {
-    font-size: 18px;
-    font-weight: 400;
-    width: 423px;
-    margin: 30px 0px;
-
+    margin: 0;
 }
-a {
+section {
+    padding-top: 120px;
+}
+
+.header {
+    padding-top: 60px;
+}
+.conteiner {
+    width: 1110px;
+    margin: 0 auto;   
+}
+.offer {
+    width: 465px;
+}
+.offer-wraper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 82px;
+}
+.logo {
+   margin: 0 auto;
+}
+.introtext {
+    margin: 30px 0px;
+    width: 423px;
+}
+.btn {
     background: #FF6861;
     border-radius: 100px;
     color: #FFFFFF;
     padding: 22px 70px;
     text-decoration: none;
-    font-size: 18px;
     font-weight: 700;
     display: block;
-    width: 219px;
+    width: 227px;
 }
+.digit-item {
+    display: flex;
+    align-items: center;
+    
+}
+.digit-wrap {
+    margin-left: 34px;
+}
+.digit-title {
+    font-size: 30px;
+    margin-bottom: 11px;
+}
+.digits {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    width: 720px;
+    margin: 70px auto 0 auto;
+}
+.animals-wrap {
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    border-radius: 60px;
+}
+.animals-section {
+    display: flex;
+    align-items: center;
+}
+
+justify-content: center;
