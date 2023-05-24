@@ -83,8 +83,13 @@ section {
     border-radius: 60px;
 }
 .animals-section {
-    display: flex;
-    align-items: center;
+    width: 475px;
 }
-
+.animals-title {
+text-align-last: left;
+}
+.animals-text {
+    margin: 24px 0;
+    width: 371px;
+}
 justify-content: center;
