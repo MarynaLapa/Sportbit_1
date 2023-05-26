@@ -4,6 +4,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 500px;
     font-size: 18px;
+    background: #FDFCEF;
+    border-radius: 50px;
 }
 * {
     box-sizing: border-box;
